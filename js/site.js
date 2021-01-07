@@ -12,11 +12,13 @@ document.getElementById('form')
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.value = 'Send Email';
-      Swal.fire(
-        'Yayyy!',
-        'You succeed sent me a message!',
-        'success'
-      );
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Yay!!! You just sent me a message!!!',
+        showConfirmButton: false,
+        timer: 1500
+    });
     }, (err) => {
       btn.value = 'Send Email';
       Swal.fire({
