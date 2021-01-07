@@ -517,17 +517,17 @@
                       </h5>
                     </div>
                     <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <form id="form">
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                              <input type="text" name="from_name" class="form-control" id="from_name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                               <div class="validate"></div>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                              <input type="email" class="form-control" name="reply_to" id="reply_to" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                               <div class="validate"></div>
                             </div>
                           </div>
@@ -543,16 +543,15 @@
                               <div class="validate"></div>
                             </div>
                           </div>
-                          <div class="col-md-12 text-center mb-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                            <button type="submit" id="button" class="button button-a button-big button-rouded">Send Message</button>
                           </div>
                         </div>
                       </form>
+                      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+                      <script type="text/javascript">
+                        emailjs.init('user_0mZQDcLrpuQu9fXghKf2k')
+                        </script>
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -619,6 +618,7 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/typed.min.js"></script>
   <script src="js/venobox.min.js"></script>
+  <script src="js/site.js"></script>
 
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
