@@ -35,9 +35,7 @@ function project_popup1(){
     title: 'My Blog Site',
     text: 'A very functional blog site',
     imageUrl: 'img//work-1.jpg',
-    imageWidth: 1000,
-    imageHeight: 300,
-    imageAlt: 'Custom image',
+    
     
     
     confirmButtonColor: '#3085d6',
@@ -54,9 +52,7 @@ function project_popup2(){
     title: 'My Linkedin',
     text: 'See my working profile',
     imageUrl: 'img//work-2.jpg',
-    imageWidth: 1000,
-    imageHeight: 300,
-    imageAlt: 'Custom image',
+    
     
     
     confirmButtonColor: '#3085d6',
@@ -73,9 +69,7 @@ function project_popup3(){
     title: 'My Github',
     text: 'Where I put all of my work into',
     imageUrl: 'img//work-3.jpg',
-    imageWidth: 1000,
-    imageHeight: 300,
-    imageAlt: 'Custom image',
+    
     
     
     confirmButtonColor: '#3085d6',
@@ -92,9 +86,7 @@ function blog_popup1(){
     title: 'My Travel Blog',
     text: 'Traveling is always a good experience, see new things in front of your eyes is a fantastic emotion.',
     imageUrl: 'img//post-1.jpg',
-    imageWidth: 1000,
-    imageHeight: 300,
-    imageAlt: 'Custom image',
+
     
     
     confirmButtonColor: '#3085d6',
@@ -111,9 +103,7 @@ function blog_popup2(){
     title: 'My Travel Blog',
     text: 'Building and maintaining web is my job and I want to share my story to you.',
     imageUrl: 'img//post-2.jpg',
-    imageWidth: 1000,
-    imageHeight: 300,
-    imageAlt: 'Custom image',
+
     
     
     confirmButtonColor: '#3085d6',
@@ -130,10 +120,7 @@ function blog_popup3(){
     title: 'My Travel Blog',
     text: 'Trading is a way to earn money, My plan is to build a auto Trading Bot using Python.',
     imageUrl: 'img//post-3.jpg',
-    imageWidth: 1000,
-    imageHeight: 300,
-    imageAlt: 'Custom image',
-    
+
     
     confirmButtonColor: '#3085d6',
     
