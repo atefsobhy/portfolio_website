@@ -294,15 +294,18 @@
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
+                  <div class="col-sm-7">
                     <h2 class="w-title">My Blog</h2>
                     <div class="w-more">
                       <span class="w-ctegory">Blog Website</span> / <span class="w-date">Jan 18. 2021</span>
                     </div>
                   </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="library.html"> <span class="ion-ios-plus-outline"></span></a>
+                  <div class="col-sm-5">
+                    <div class="row">
+                      <div class="w-like">
+                        <button type="submit" onclick="project_popup1()" class="button button-a btn-sm button-rouded" data-toggle="modal" data-target="#staticBackdrop">See My Blog</button>
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -318,15 +321,15 @@
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
+                  <div class="col-sm-6">
                     <h2 class="w-title">Linkedin</h2>
                     <div class="w-more">
                       <span class="w-ctegory">My Linkedin</span> / <span class="w-date">Dec 6, 2020</span>
                     </div>
                   </div>
-                  <div class="col-sm-4">
+                  <div class="col-sm-6">
                     <div class="w-like">
-                      <a href="https://www.linkedin.com/in/duy-lan-le-445262163/"> <span class="ion-ios-plus-outline"></span></a>
+                      <button type="submit" onclick="project_popup2()" class="button button-a btn-sm button-rouded" data-toggle="modal" data-target="#staticBackdrop">See My Linkedin</button>
                     </div>
                   </div>
                 </div>
@@ -342,15 +345,15 @@
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
+                  <div class="col-sm-6">
                     <h2 class="w-title">Github</h2>
                     <div class="w-more">
                       <span class="w-ctegory">My Github</span> / <span class="w-date">Jan 5, 2021</span>
                     </div>
                   </div>
-                  <div class="col-sm-4">
+                  <div class="col-sm-6">
                     <div class="w-like">
-                      <a href="https://github.com/arthastheking113"> <span class="ion-ios-plus-outline"></span></a>
+                      <button type="submit" onclick="project_popup3()" class="button button-a btn-sm button-rouded" data-toggle="modal" data-target="#staticBackdrop">See My Github</button>
                     </div>
                   </div>
                 </div>
@@ -416,7 +419,7 @@
                 <a href="library.html ">Blog</a>
               </h3>
               <p class="subtitle-a">
-                Where I talk about my life and myself
+                Place where I talk about my life and myself
               </p>
               <div class="line-mf"></div>
             </div>
@@ -438,6 +441,9 @@
                 <p class="card-description">
                   <a href="blog-single.html">Traveling is always a good experience, see new things in front of your eyes is a fantastic emotion.</a>
                 </p>
+                <div class="text-center">
+                <button onclick="blog_popup1()" class="button button-a btn-sm button-rouded" data-toggle="modal" data-target="#staticBackdrop">My Travel Story</button>
+                </div>
               </div>
               <div class="card-footer">
                 <div class="post-author">
@@ -467,6 +473,9 @@
                 <p class="card-description">
                   <a href="Web_development.html">Building and maintaining web is my job and I want to share my story to you.</a>
                 </p>
+                <div class="text-center">
+                  <button onclick="blog_popup2()" class="button button-a btn-sm button-rouded" data-toggle="modal" data-target="#staticBackdrop">Web Development Story</button>
+                </div>
               </div>
               <div class="card-footer">
                 <div class="post-author">
@@ -496,6 +505,9 @@
                 <p class="card-description">
                   <a href="Trading_Bot.html">Trading is a way to earn money, My plan is to build a auto Trading Bot using Python.</a>
                 </p>
+                <div class="text-center">
+                  <button onclick="blog_popup3()" class="button button-a btn-sm button-rouded" data-toggle="modal" data-target="#staticBackdrop">My Trading Bot Story</button>
+                  </div>
               </div>
               <div class="card-footer">
                 <div class="post-author">
@@ -564,7 +576,7 @@
                             </div>
                           </div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" id="button" class="button button-a button-big button-rouded">Send Message</button>
+                            <button type="submit" id="button1" class="button button-a button-big button-rouded">Send Message</button>
                           </div>
                           <script src="js/sweetalert2.all.min.js"></script>
                           <script src="js/sweetalert2.all.js"></script>
