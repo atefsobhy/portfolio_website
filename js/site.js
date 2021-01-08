@@ -131,6 +131,3 @@ function blog_popup3(){
     }
   })
 }
-function resume_download(){
-  window.location.replace("https://smallpdf.com/result#r=2c0208858121eaa46f0761ff6aec8fbb&t=word")
-}
