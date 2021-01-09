@@ -17,7 +17,7 @@ document.getElementById('form')
         icon: 'success',
         title: 'Yay!!! You just sent me a message!!!',
         showConfirmButton: false,
-        timer: 1500
+        timer: 2000
     });
       document.getElementById("form").reset();
     }, (err) => {
@@ -26,6 +26,8 @@ document.getElementById('form')
         icon: 'error',
         title: 'Oops...',
         text: 'Something went wrong!',
+        showConfirmButton: false,
+        timer: 2000
       });
     });
     document.getElementById("form").reset();
@@ -130,4 +132,13 @@ function blog_popup3(){
       window.location.replace("Trading_bot.html")
     }
   })
+}
+function download_success(){
+  Swal.fire({
+    position: 'center',
+    icon: 'success',
+    title: 'Yay!!! You just download my resume!!!',
+    showConfirmButton: false,
+    timer: 2000
+});
 }
