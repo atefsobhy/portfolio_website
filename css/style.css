@@ -384,7 +384,18 @@ a:hover {
   }
 }
 
+@keyframes example12 {
+  0%   {background-color:red; background-size: 5%;}
+  25%  {background-color:yellow; background-size: 10%;}
+  50%  {background-color:blue; background-size: 20%;}
+  75%  {background-color:green; background-size: 30%;}
+  100% {background-color:red; background-size: 40%;}
+}
 /*------/ Button /------*/
+.abc{
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
 .button {
   display: inline-block;
   padding: .3rem .6rem;
@@ -397,19 +408,47 @@ a:hover {
   font-size: 1rem;
   border-radius: .3rem;
   border: 1px solid transparent;
+  -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   cursor: pointer;
+ 
+}
+.button2 {
+  display: inline-block;
+  padding: .3rem .6rem;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 1.25rem;
+  border-radius: .3rem;
+  border: 1px solid transparent;
+  transition: all 500ms ease-out;
+  cursor: pointer;
+ 
 }
 
+.button2:hover {
+  background-color: #0fe8f0;
+  color: #fff;
+  transition: all 500ms ease-out;
+
+
+}
 .button:focus {
   outline: 0;
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #0fe8f0;
   color: #fff;
-  transition: all 500ms ease;
+  transition: all 500ms ease-out;
+
+
 }
+
 
 .button-a {
   background-color:  #1cd5db;
