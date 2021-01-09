@@ -51,9 +51,9 @@ function project_popup1(){
 }
 function project_popup2(){
   Swal.fire({
-    title: 'My Linkedin',
-    text: 'See my working profile',
-    imageUrl: 'img//work-2.jpg',
+    title: 'My Sudoku Solver',
+    text: 'See my Sudoku playground!',
+    imageUrl: 'img//project-1.jpg',
     
     
     
@@ -62,7 +62,7 @@ function project_popup2(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("project_site.html")
+      window.location.replace("https://duylanle-sudoku.netlify.app/")
     }
   })
 }
