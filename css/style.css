@@ -257,15 +257,27 @@ a:hover {
 }
 .ico-circle2 {
   width: 5%;
-  height: 5%;
-  line-height: 6%;
+  height: 2%;
+  line-height: 2%;
   font-weight: 600;
-  border-radius: 100%;
+  border-radius: 200%;
   font-size: 90%;
   color:#1cd5db;
   text-align: center;
   background: rgb(255, 255, 255)
 }
+.ico-circle3 {
+  width: 5%;
+  height: 5%;
+  line-height: 2%;
+  font-weight: 600;
+  border-radius: 20%;
+  font-size: 100%;
+  color:#1cd5db;
+  text-align: center;
+  background: rgb(255, 255, 255)
+}
+
 
 /*------/ Owl Carousel /------*/
 .owl-theme .owl-dots {
