@@ -45,7 +45,7 @@ function project_popup1(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("project_site.html")
+      window.open("library.html","_blank")
     }
   })
 }
@@ -62,14 +62,14 @@ function project_popup2(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("https://duylanle-sudoku.netlify.app/")
+      window.open("https://duylanle-sudoku.netlify.app/","_blank")
     }
   })
 }
 function project_popup3(){
   Swal.fire({
-    title: 'My Github',
-    text: 'Where I put all of my work into',
+    title: 'Bug Tracker',
+    text: 'A wonderful tool every company need.',
     imageUrl: 'img//work-3.jpg',
     
     
@@ -79,7 +79,7 @@ function project_popup3(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("project_site.html")
+      window.open("project_site.html","_blank")
     }
   })
 }
@@ -96,7 +96,7 @@ function blog_popup1(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("blog-single.html")
+      window.location.open("blog-single.html","_blank")
     }
   })
 }
@@ -113,7 +113,7 @@ function blog_popup2(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("Web_development.html")
+      window.open("Web_development.html","_blank")
     }
   })
 }
@@ -129,7 +129,7 @@ function blog_popup3(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("Trading_bot.html")
+      window.open("Trading_bot.html","_blank")
     }
   })
 }
@@ -152,7 +152,7 @@ function minisites_popup1(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("https://tacocat-duylanle.netlify.app/solve.html")
+      window.open("https://duylanle-tacocat.netlify.app", "_blank")
     }
   })
 }
@@ -165,7 +165,7 @@ function minisites_popup2(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("https://duylanle-sudoku.netlify.app/")
+      window.open(" https://duylanle-sudoku.netlify.app/", "_blank")
     }
   })
 }
@@ -178,8 +178,7 @@ function minisites_popup3(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("#")
-    }
+      window.open("#", "_blank")    }
   })
 }
 function minisites_popup4(){
@@ -191,8 +190,7 @@ function minisites_popup4(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("#")
-    }
+      window.open("#", "_blank")    }
   })
 }
 function minisites_popup5(){
@@ -204,8 +202,7 @@ function minisites_popup5(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("#")
-    }
+      window.open("#", "_blank")    }
   })
 }
 function minisites_popup6(){
@@ -217,8 +214,7 @@ function minisites_popup6(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("#")
-    }
+      window.open("#", "_blank")    }
   })
 }
 
