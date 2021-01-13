@@ -190,19 +190,19 @@ function minisites_popup4(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.open("#", "_blank")    }
+      window.open("https://duylanle-fizzbuzz.netlify.app/", "_blank")    }
   })
 }
 function minisites_popup5(){
   Swal.fire({
     title: 'Sum of All Fear',
     text: 'Curious? Go and have a look at it!',
-    imageUrl: 'img//sumofallfear.jpg', 
+    imageUrl: 'img/SumOfAllFears.jpg', 
     confirmButtonColor: '#3085d6',  
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.open("#", "_blank")    }
+      window.open("https://duylanle-sumofallfear.netlify.app/", "_blank")    }
   })
 }
 function minisites_popup6(){
@@ -214,7 +214,7 @@ function minisites_popup6(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.open("#", "_blank")    }
+      window.open("https://app.netlify.com/sites/duylanle-sunsethills/overview", "_blank")    }
   })
 }
 
