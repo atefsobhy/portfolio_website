@@ -214,7 +214,7 @@ function minisites_popup6(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.open("https://app.netlify.com/sites/duylanle-sunsethills/overview", "_blank")    }
+      window.open("https://duylanle-sunsethills.netlify.app/", "_blank")    }
   })
 }
 
