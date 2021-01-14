@@ -178,7 +178,7 @@ function minisites_popup3(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.open("#", "_blank")    }
+      window.open("https://duylanle-superdog.netlify.app/", "_blank")    }
   })
 }
 function minisites_popup4(){
