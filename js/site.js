@@ -217,4 +217,16 @@ function minisites_popup6(){
       window.open("https://duylanle-sunsethills.netlify.app/", "_blank")    }
   })
 }
-
+function minisites_popup7(){
+  Swal.fire({
+    title: 'My Mortgage Calculator',
+    text: 'Place where I calculate my mortgage payment!!!',
+    imageUrl: 'img//calculator.jpg',
+    confirmButtonColor: '#3085d6',
+    confirmButtonText: "Let's goooooo!!!"
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.open("https://duylanle-mortgage-calculator.netlify.app", "_blank")
+    }
+  })
+}
