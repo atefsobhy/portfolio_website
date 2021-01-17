@@ -230,3 +230,29 @@ function minisites_popup7(){
     }
   })
 }
+function minisites_popup8(){
+  Swal.fire({
+    title: 'My Sorting Algorithm',
+    text: 'I practice soting skill in here!!!',
+    imageUrl: 'img//sorting.jpg',
+    confirmButtonColor: '#3085d6',
+    confirmButtonText: "Coming Soon"
+  }).then((result) => {
+    if (result.isConfirmeSSSd) {
+      window.open("", "_blank")
+    }
+  })
+}
+function minisites_popup9(){
+  Swal.fire({
+    title: 'My Javascript Tips And Tricks',
+    text: 'I saved a lot of javascript tips and tricks in here!!!',
+    imageUrl: 'img//tipsandtricks.jpg',
+    confirmButtonColor: '#3085d6',
+    confirmButtonText: "Coming Soon"
+  }).then((result) => {
+    if (result.isConfirmeSSSd) {
+      window.open("", "_blank")
+    }
+  })
+}
