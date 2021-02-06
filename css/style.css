@@ -374,7 +374,25 @@ a:hover {
   overflow: hidden;
   background: #fff;
 }
-
+.center{
+  position:absolute;
+  width:780px;
+  height:650px;
+  left:50%;
+  top:50%;
+  margin-left:-390px;
+  margin-top:-325px;
+}
+#preloader p{
+	  position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+		/* top:0; */
+    display: inline-block;
+    text-align: center;
+		margin-bottom: -5em;
+}
 #preloader:before {
   content: "";
   position: fixed;

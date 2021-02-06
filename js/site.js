@@ -1,3 +1,11 @@
+jQuery(document).ready(function ($) {
+  $(window).load(function () {
+      setTimeout(function(){
+          $('#preloader').fadeOut('slow', function () {
+          });
+      },9000); // set the time here
+  });  
+});
 const btn = document.getElementById('button1');
 
 document.getElementById('form')
