@@ -89,20 +89,18 @@ function blog_popup1(){
     text: 'Traveling is always a good experience, see new things in front of your eyes is a fantastic emotion.',
     imageUrl: 'img//post-1.jpg',
 
-    
-    
     confirmButtonColor: '#3085d6',
     
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.open("blog-single.html","_blank")
+      open("https://duylanle-blog.herokuapp.com/PostCategories/Details?slug=biggest-journey-of-my-life","_blank")
     }
   })
 }
 function blog_popup2(){
   Swal.fire({
-    title: 'My Travel Blog',
+    title: 'See more ideas about my Website Development',
     text: 'Building and maintaining web is my job and I want to share my story to you.',
     imageUrl: 'img//post-2.jpg',
 
@@ -113,13 +111,13 @@ function blog_popup2(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.open("Web_development.html","_blank")
+      open("https://duylanle-blog.herokuapp.com/PostCategories/Details?slug=my-web-development-journey","_blank")
     }
   })
 }
 function blog_popup3(){
   Swal.fire({
-    title: 'My Travel Blog',
+    title: 'See more ideas about my Trading Bot',
     text: 'Trading is a way to earn money, My plan is to build a auto Trading Bot using Python.',
     imageUrl: 'img//post-3.jpg',
 
@@ -129,7 +127,7 @@ function blog_popup3(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.open("Trading_bot.html","_blank")
+      open("https://duylanle-blog.herokuapp.com/PostCategories/Details?slug=python-auto-trading-bot","_blank")
     }
   })
 }
