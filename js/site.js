@@ -45,7 +45,7 @@ function project_popup1(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.open("library.html","_blank")
+      window.open("https://duylanle-blog.herokuapp.com/","_blank")
     }
   })
 }
