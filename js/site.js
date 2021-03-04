@@ -79,7 +79,7 @@ function project_popup3(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.open("project_site.html","_blank")
+      window.open("http://duylanle-bugtracker.herokuapp.com/","_blank")
     }
   })
 }
