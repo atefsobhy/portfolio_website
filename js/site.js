@@ -94,7 +94,7 @@ function blog_popup1(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      open("https://duylanle-blog.herokuapp.com/PostCategories/Details?slug=biggest-journey-of-my-life","_blank")
+      open("https://duylanle-blog.herokuapp.com/?search=travel","_blank")
     }
   })
 }
@@ -111,7 +111,7 @@ function blog_popup2(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      open("https://duylanle-blog.herokuapp.com/PostCategories/Details?slug=my-web-development-journey","_blank")
+      open("https://duylanle-blog.herokuapp.com/?search=development","_blank")
     }
   })
 }
@@ -127,7 +127,7 @@ function blog_popup3(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      open("https://duylanle-blog.herokuapp.com/PostCategories/Details?slug=python-auto-trading-bot","_blank")
+      open("https://duylanle-blog.herokuapp.com/?search=python","_blank")
     }
   })
 }
