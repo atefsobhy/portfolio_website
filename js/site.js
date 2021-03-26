@@ -52,8 +52,8 @@ function project_popup1(){
 function project_popup2(){
   Swal.fire({
     title: 'My Sudoku Solver',
-    text: 'See my Sudoku playground!',
-    imageUrl: 'img//project-1.jpg',
+    text: 'See my Online Market',
+    imageUrl: 'img//online_market_picture.png',
     
     
     
@@ -62,7 +62,7 @@ function project_popup2(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.open("https://duylanle-sudoku.netlify.app/","_blank")
+      window.open("https://duylanle-market.herokuapp.com/","_blank")
     }
   })
 }
