@@ -51,7 +51,7 @@ function project_popup1(){
 }
 function project_popup2(){
   Swal.fire({
-    title: 'My Sudoku Solver',
+    title: 'My Online Market',
     text: 'See my Online Market',
     imageUrl: 'img//online_market_picture.png',
     
