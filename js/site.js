@@ -52,7 +52,7 @@ function project_popup1(){
 function project_popup2(){
   Swal.fire({
     title: 'My Online Market',
-    text: 'See my Online Market',
+    text: 'An eCommerce web application.',
     imageUrl: 'img//online_market_picture.png',
     
     
