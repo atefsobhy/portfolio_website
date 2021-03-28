@@ -35,7 +35,7 @@ document.getElementById('form')
 function project_popup1(){
   Swal.fire({
     title: 'My Blog Site',
-    text: 'A very functional blog site',
+    text: 'A very functional blog site.          Notes: Because this project run on Heroku free sever, it may take a minute to boost up. Sorry for this inconvinience.',
     imageUrl: 'img//work-1.jpg',
     
     
@@ -52,7 +52,7 @@ function project_popup1(){
 function project_popup2(){
   Swal.fire({
     title: 'My Online Market',
-    text: 'An eCommerce web application.',
+    text: 'An eCommerce web application.           Notes: Because this project run on Heroku free sever, it may take a minute to boost up. Sorry for this inconvinience.',
     imageUrl: 'img//online_market_picture.png',
     
     
@@ -69,7 +69,7 @@ function project_popup2(){
 function project_popup3(){
   Swal.fire({
     title: 'Bug Tracker',
-    text: 'A wonderful tool every company need.',
+    text: 'A wonderful tool every company need.        Notes: Because this project run on Heroku free sever, it may take a minute to boost up. Sorry for this inconvinience.',
     imageUrl: 'img//work-3.jpg',
     
     
