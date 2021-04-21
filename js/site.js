@@ -1,37 +1,4 @@
-const btn = document.getElementById('button1');
 
-document.getElementById('form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
-
-   btn.value = 'Sending...';
-
-   const serviceID = 'service_l780ebr';
-   const templateID = 'template_orq65se';
-
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = 'Send Email';
-      Swal.fire({
-        position: 'center',
-        icon: 'success',
-        title: 'Yay!!! You just sent me a message!!!',
-        showConfirmButton: false,
-        timer: 2000
-    });
-      document.getElementById("form").reset();
-    }, (err) => {
-      btn.value = 'Send Email';
-      Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Something went wrong!',
-        showConfirmButton: false,
-        timer: 2000
-      });
-    });
-    document.getElementById("form").reset();
-});
 function project_popup1(){
   Swal.fire({
     title: 'My Blog Site',
@@ -80,6 +47,24 @@ function project_popup3(){
   }).then((result) => {
     if (result.isConfirmed) {
       window.open("http://duylanle-bugtracker.herokuapp.com/","_blank")
+    }
+  })
+}
+
+function project_popup4(){
+  Swal.fire({
+    title: 'Personal Angular Blog',
+    text: 'I build my personal blog using ASP .NET MVC C# as back-end, Angular as front-end, and PostgreSQL as my Database.',
+    imageUrl: 'img//work-1.jpg',
+    
+    
+    
+    confirmButtonColor: '#3085d6',
+    
+    confirmButtonText: "Let's goooooo!!!"
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.open("https://duylanle-blog.netlify.app/","_blank")
     }
   })
 }
@@ -254,3 +239,38 @@ function minisites_popup9(){
     }
   })
 }
+
+const btn = document.getElementById('button1');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'service_l780ebr';
+   const templateID = 'template_orq65se';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Yay!!! You just sent me a message!!!',
+        showConfirmButton: false,
+        timer: 2000
+    });
+      document.getElementById("form").reset();
+    }, (err) => {
+      btn.value = 'Send Email';
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Something went wrong!',
+        showConfirmButton: false,
+        timer: 2000
+      });
+    });
+    document.getElementById("form").reset();
+});
