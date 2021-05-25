@@ -2,7 +2,7 @@
 function project_popup1(){
   Swal.fire({
     title: 'My Blog Site',
-    text: 'A very functional blog site.          Notes: Because this project run on Heroku free sever, it may take a minute to boost up. Sorry for this inconvinience.',
+    text: 'A very functional blog site.          Notes: Because this project run on Heroku free sever, it may take a minute to boost up. Sorry for this inconvenience.',
     imageUrl: 'img//work-1.jpg',
     
     
@@ -19,7 +19,7 @@ function project_popup1(){
 function project_popup2(){
   Swal.fire({
     title: 'My Online Market',
-    text: 'An eCommerce web application.           Notes: Because this project run on Heroku free sever, it may take a minute to boost up. Sorry for this inconvinience.',
+    text: 'An eCommerce web application.           Notes: Because this project run on Heroku free sever, it may take a minute to boost up. Sorry for this inconvenience.',
     imageUrl: 'img//online_market_picture.png',
     
     
@@ -36,7 +36,7 @@ function project_popup2(){
 function project_popup3(){
   Swal.fire({
     title: 'Bug Tracker',
-    text: 'A wonderful tool every company need.        Notes: Because this project run on Heroku free sever, it may take a minute to boost up. Sorry for this inconvinience.',
+    text: 'A wonderful tool every company need.        Notes: Because this project run on Heroku free sever, it may take a minute to boost up. Sorry for this inconvenience.',
     imageUrl: 'img//work-3.jpg',
     
     
@@ -65,6 +65,24 @@ function project_popup4(){
   }).then((result) => {
     if (result.isConfirmed) {
       window.open("https://duylanle-blog.netlify.app/","_blank")
+    }
+  })
+}
+
+function project_popup5(){
+  Swal.fire({
+    title: 'Personal Angular Blog',
+    text: 'I build my personal blog using ASP .NET MVC C# and also API controller for my Blog Angular project, and using PostgreSQL as my Database.',
+    imageUrl: 'img//work-1.jpg',
+    
+    
+    
+    confirmButtonColor: '#3085d6',
+    
+    confirmButtonText: "Let's goooooo!!!"
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.open("https://duylanle-blogmvc.herokuapp.com/","_blank")
     }
   })
 }
