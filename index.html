@@ -1006,7 +1006,7 @@
       .then(response => response.json())
       .then(function(data){    
         let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };    
-        let blogUrl = "https://duylanle-blogmvc.herokuapp.com/BlogPost/Details/"
+        let blogUrl = "https://duylanle-blog.herokuapp.com/BlogPost/Details/"
         let blogAnchor = $("#blog1 > div.card-body > h3 > a");    
         let blogLink = `${blogUrl}${data[0].slug}`;
         blogAnchor.text(data[0].title);
