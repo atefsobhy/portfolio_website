@@ -29,7 +29,24 @@ function project_popup2(){
     confirmButtonText: "Let's goooooo!!!"
   }).then((result) => {
     if (result.isConfirmed) {
-      window.open("https://duylanle-market.herokuapp.com/","_blank")
+      window.open("http://duylanle-ecommerce.herokuapp.com/","_blank")
+    }
+  })
+}
+function project_popup6(){
+  Swal.fire({
+    title: 'My Personal Ecommerce',
+    text: 'An eCommerce web application.           Notes: Because this project run on Heroku free sever, it may take a minute to boost up. Sorry for this inconvenience.',
+    imageUrl: 'img//online_market_picture.png',
+    
+    
+    
+    confirmButtonColor: '#3085d6',
+    
+    confirmButtonText: "Let's goooooo!!!"
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.open("http://duylanle-ecommerce.herokuapp.com/","_blank")
     }
   })
 }
